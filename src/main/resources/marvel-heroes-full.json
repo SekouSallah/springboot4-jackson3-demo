@@ -1,0 +1,194 @@
+[
+  {
+    "heroName": "Iron Man",
+    "realName": "Tony Stark",
+    "powerLevel": 9999.99,
+    "alignment": "HERO",
+    "isFlying": true,
+    "lastSeen": "2025-11-30T18:42:00Z",
+    "team": [
+      "Avengers"
+    ],
+    "gadget": {
+      "name": "Arc Reactor",
+      "energyOutput": 3.14159,
+      "isPrototype": false
+    },
+    "locations": {
+      "base": "Malibu Mansion",
+      "visited": [
+        "New York",
+        "Sokovia",
+        "Titan"
+      ]
+    }
+  },
+  {
+    "heroName": "Spider-Man",
+    "realName": "Peter Parker",
+    "powerLevel": 1200.50,
+    "alignment": "HERO",
+    "isFlying": false,
+    "lastSeen": "2025-09-14T09:12:00Z",
+    "team": [
+      "Avengers"
+    ],
+    "gadget": {
+      "name": "Web Shooter",
+      "energyOutput": 0.12,
+      "isPrototype": true
+    },
+    "locations": {
+      "base": "Queens",
+      "visited": [
+        "Queens",
+        "Berlin",
+        "San Francisco"
+      ]
+    }
+  },
+  {
+    "heroName": "Captain America",
+    "realName": "Steve Rogers",
+    "powerLevel": 4500.00,
+    "alignment": "HERO",
+    "isFlying": false,
+    "lastSeen": "2024-12-24T11:00:00Z",
+    "team": [
+      "Avengers"
+    ],
+    "gadget": {
+      "name": "Vibranium Shield",
+      "energyOutput": 0,
+      "isPrototype": false
+    },
+    "locations": {
+      "base": "Brooklyn",
+      "visited": [
+        "Washington D.C.",
+        "New York",
+        "Sokovia"
+      ]
+    }
+  },
+  {
+    "heroName": "Thor",
+    "realName": "Thor Odinson",
+    "powerLevel": 15000.00,
+    "alignment": "HERO",
+    "isFlying": true,
+    "lastSeen": "2025-05-02T14:00:00Z",
+    "team": [
+      "Avengers"
+    ],
+    "gadget": {
+      "name": "Stormbreaker",
+      "energyOutput": 9000.01,
+      "isPrototype": false
+    },
+    "locations": {
+      "base": "Asgard",
+      "visited": [
+        "Asgard",
+        "New Asgard",
+        "Sakaar"
+      ]
+    }
+  },
+  {
+    "heroName": "Hulk",
+    "realName": "Bruce Banner",
+    "powerLevel": 18000.00,
+    "alignment": "HERO",
+    "isFlying": false,
+    "lastSeen": "2025-10-01T07:45:00Z",
+    "team": [
+      "Avengers"
+    ],
+    "gadget": {
+      "name": "Gamma Gloves",
+      "energyOutput": 88.8,
+      "isPrototype": true
+    },
+    "locations": {
+      "base": "Avengers Tower",
+      "visited": [
+        "New York",
+        "Sakaar",
+        "Brazil"
+      ]
+    }
+  },
+  {
+    "heroName": "Loki",
+    "realName": "Loki Laufeyson",
+    "powerLevel": 8800.00,
+    "alignment": "CHAOTIC",
+    "isFlying": false,
+    "lastSeen": "2025-06-03T03:21:00Z",
+    "team": [
+      "Asgard"
+    ],
+    "gadget": {
+      "name": "Scepter",
+      "energyOutput": 42.0,
+      "isPrototype": false
+    },
+    "locations": {
+      "base": "Asgard",
+      "visited": [
+        "Asgard",
+        "New York",
+        "Void"
+      ]
+    }
+  },
+  {
+    "heroName": "Thanos",
+    "realName": "Thanos",
+    "powerLevel": 25000.00,
+    "alignment": "VILLAIN",
+    "isFlying": false,
+    "lastSeen": "2025-04-01T12:00:00Z",
+    "team": [
+      "Black Order"
+    ],
+    "gadget": {
+      "name": "Infinity Gauntlet",
+      "energyOutput": 99999.99,
+      "isPrototype": false
+    },
+    "locations": {
+      "base": "Titan",
+      "visited": [
+        "Titan",
+        "Knowhere",
+        "Earth"
+      ]
+    }
+  },
+  {
+    "heroName": "Doctor Strange",
+    "realName": "Stephen Strange",
+    "powerLevel": 16000.00,
+    "alignment": "HERO",
+    "isFlying": false,
+    "lastSeen": "2025-07-13T10:00:00Z",
+    "team": [
+      "Masters of the Mystic Arts"
+    ],
+    "gadget": {
+      "name": "Eye of Agamotto",
+      "energyOutput": 108.0,
+      "isPrototype": false
+    },
+    "locations": {
+      "base": "Kamar-Taj",
+      "visited": [
+        "New York",
+        "Hong Kong",
+        "Mirror Dimension"
+      ]
+    }
+  }
+]
