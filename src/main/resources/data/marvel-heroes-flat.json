@@ -6,18 +6,10 @@
     "alignment": "HERO",
     "isFlying": true,
     "lastSeen": "2025-11-30T18:42:00Z",
-    "team": [
-      "Avengers"
-    ],
     "favoriteGadgetName": "Arc Reactor",
     "favoriteGadgetEnergyOutput": 3.14159,
     "favoriteGadgetIsPrototype": false,
-    "homeBase": "Malibu Mansion",
-    "visitedLocations": [
-      "New York",
-      "Sokovia",
-      "Titan"
-    ]
+    "homeBase": "Malibu Mansion"
   },
   {
     "heroName": "Spider-Man",
@@ -26,18 +18,10 @@
     "alignment": "HERO",
     "isFlying": false,
     "lastSeen": "2025-09-14T09:12:00Z",
-    "team": [
-      "Avengers"
-    ],
     "favoriteGadgetName": "Web Shooter",
     "favoriteGadgetEnergyOutput": 0.12,
     "favoriteGadgetIsPrototype": true,
-    "homeBase": "Queens",
-    "visitedLocations": [
-      "Queens",
-      "Berlin",
-      "San Francisco"
-    ]
+    "homeBase": "Queens"
   },
   {
     "heroName": "Captain America",
@@ -46,18 +30,10 @@
     "alignment": "HERO",
     "isFlying": false,
     "lastSeen": "2024-12-24T11:00:00Z",
-    "team": [
-      "Avengers"
-    ],
     "favoriteGadgetName": "Vibranium Shield",
     "favoriteGadgetEnergyOutput": 0,
     "favoriteGadgetIsPrototype": false,
-    "homeBase": "Brooklyn",
-    "visitedLocations": [
-      "Washington D.C.",
-      "New York",
-      "Sokovia"
-    ]
+    "homeBase": "Brooklyn"
   },
   {
     "heroName": "Thor",
@@ -66,18 +42,10 @@
     "alignment": "HERO",
     "isFlying": true,
     "lastSeen": "2025-05-02T14:00:00Z",
-    "team": [
-      "Avengers"
-    ],
     "favoriteGadgetName": "Stormbreaker",
     "favoriteGadgetEnergyOutput": 9000.01,
     "favoriteGadgetIsPrototype": false,
-    "homeBase": "Asgard",
-    "visitedLocations": [
-      "Asgard",
-      "New Asgard",
-      "Sakaar"
-    ]
+    "homeBase": "Asgard"
   },
   {
     "heroName": "Hulk",
@@ -86,18 +54,10 @@
     "alignment": "HERO",
     "isFlying": false,
     "lastSeen": "2025-10-01T07:45:00Z",
-    "team": [
-      "Avengers"
-    ],
     "favoriteGadgetName": "Gamma Gloves",
     "favoriteGadgetEnergyOutput": 88.8,
     "favoriteGadgetIsPrototype": true,
-    "homeBase": "Avengers Tower",
-    "visitedLocations": [
-      "New York",
-      "Sakaar",
-      "Brazil"
-    ]
+    "homeBase": "Avengers Tower"
   },
   {
     "heroName": "Loki",
@@ -106,18 +66,10 @@
     "alignment": "CHAOTIC",
     "isFlying": false,
     "lastSeen": "2025-06-03T03:21:00Z",
-    "team": [
-      "Asgard"
-    ],
     "favoriteGadgetName": "Scepter",
     "favoriteGadgetEnergyOutput": 42.0,
     "favoriteGadgetIsPrototype": false,
-    "homeBase": "Asgard",
-    "visitedLocations": [
-      "Asgard",
-      "New York",
-      "Void"
-    ]
+    "homeBase": "Asgard"
   },
   {
     "heroName": "Thanos",
@@ -126,18 +78,10 @@
     "alignment": "VILLAIN",
     "isFlying": false,
     "lastSeen": "2025-04-01T12:00:00Z",
-    "team": [
-      "Black Order"
-    ],
     "favoriteGadgetName": "Infinity Gauntlet",
     "favoriteGadgetEnergyOutput": 99999.99,
     "favoriteGadgetIsPrototype": false,
-    "homeBase": "Titan",
-    "visitedLocations": [
-      "Titan",
-      "Knowhere",
-      "Earth"
-    ]
+    "homeBase": "Titan"
   },
   {
     "heroName": "Doctor Strange",
@@ -146,17 +90,9 @@
     "alignment": "HERO",
     "isFlying": false,
     "lastSeen": "2025-07-13T10:00:00Z",
-    "team": [
-      "Masters of the Mystic Arts"
-    ],
     "favoriteGadgetName": "Eye of Agamotto",
     "favoriteGadgetEnergyOutput": 108.0,
     "favoriteGadgetIsPrototype": false,
-    "homeBase": "Kamar-Taj",
-    "visitedLocations": [
-      "New York",
-      "Hong Kong",
-      "Mirror Dimension"
-    ]
+    "homeBase": "Kamar-Taj"
   }
 ]
