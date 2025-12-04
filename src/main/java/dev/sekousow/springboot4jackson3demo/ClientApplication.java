@@ -18,8 +18,8 @@ public class ClientApplication implements ApplicationRunner {
 
     private final RestClient restClient;
 
-    public ClientApplication() {
-        this.restClient = RestClient.create("http://localhost:8080");
+    public ClientApplication(RestClient.Builder builder) {
+        this.restClient = builder.baseUrl("http://localhost:8080").build();
     }
 
     /**
