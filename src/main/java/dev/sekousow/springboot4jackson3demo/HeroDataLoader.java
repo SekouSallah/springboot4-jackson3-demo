@@ -1,10 +1,12 @@
 package dev.sekousow.springboot4jackson3demo;
 
+import org.jspecify.annotations.NullMarked;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.stereotype.Component;
+import tools.jackson.core.JacksonException;
 import tools.jackson.core.type.TypeReference;
 import tools.jackson.databind.json.JsonMapper;
 
@@ -30,6 +32,7 @@ public class HeroDataLoader implements CommandLineRunner {
     }
 
     @Override
+    @NullMarked // Use of JSpecify
     public void run(String... args) throws Exception {
         try {
             var resource = resourceLoader.getResource(DATA_PATH);
@@ -42,7 +45,13 @@ public class HeroDataLoader implements CommandLineRunner {
             this.heroes = jsonMapper.readValue(resource.getInputStream(), new TypeReference<>() {
             });
 
-            heroes.forEach(System.out::println);
+            heroes.forEach(IO::println);
+
+            validateSerialization(this.heroes);
+
+        } catch (JacksonException e) { // You can catch globally jackson exception, not only JsonProcessingException
+            logger.error("Parsing error: {}", e.getMessage());
+            throw e;
         } catch (Exception e) {
             logger.error("Error loading heroes from {}", DATA_PATH);
             throw e;
@@ -51,5 +60,13 @@ public class HeroDataLoader implements CommandLineRunner {
 
     public List<Hero> getHeroes() {
         return this.heroes;
+    }
+
+    public void validateSerialization(List<Hero> heroes) {
+        var hero = heroes.stream().findFirst();
+
+        String json = jsonMapper.writeValueAsString(hero);
+
+        logger.debug("JSON: {}", json); // What you remark in output ?
     }
 }

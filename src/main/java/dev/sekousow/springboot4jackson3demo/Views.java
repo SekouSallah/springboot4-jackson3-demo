@@ -3,7 +3,7 @@ package dev.sekousow.springboot4jackson3demo;
 /**
  * @author Sékou Sallah Sow <sowsekou@hotmail.com>
  */
-public class View {
+public class Views {
 
     /**
      * Summary View: For simple quick data return
